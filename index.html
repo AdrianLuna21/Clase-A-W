@@ -1,19 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina HTML</title>
+    <style>
+        body > * {
+            border: 1px solid black;
+        }
+        header {
+            height: 200px;
+            background-color: rgb(251, 255, 21);
+        }
+        nav {
+            /* height: 48px; */
+            background-color: rgb(147, 47, 255);
+        }
+        main {
+            height: 600px;
+            background-color: rgb(76, 245, 231);
+        }
+        footer {
+            height: 200px;
+            background-color: rgb(182, 194, 206);
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            background-color: rgb(182, 220, 254);
+            justify-content: flex-end;
+        }
+        ul li {
+            padding: 10px;
+            width: 80px;
+            background-color: aliceblue;
+            text-align: center;
+        }
+ 
+    </style>
 </head>
 <body>
-    <h1>Mi Primera Pagina HTML</h1>
-    <p>HOLA MUNDO</p>
-    <a href="https://www.w3schools.com/html/html_intro.asp">Clic aqui para un tutorial de HTML</a>
-    <br>
-    <br>
-    <img src="imagenes/PS5-1280x720-1.webp" alt="IMAGEN DE UN PS5" width="600">
-    <br>
-    <br>
-    <img src="imagenes/xbox 720.jpg" alt="XBOX 720" width="600">
+<header>
+    Header
+    <p>Parrafo</p>
+</header>
+<nav>
+    Nav
+    <ul>
+        <li>Inicio</li>
+        <li>Acerca de</li>
+        <li>Contacto</li>
+    </ul>
+</nav>
+<main>
+    Main
+</main>
+<footer>
+    Footer
+</footer>
 </body>
 </html>
